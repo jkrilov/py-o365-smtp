@@ -1,0 +1,29 @@
+# pyproject.toml
+
+[build-system]
+requires = ["setuptools>=61.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "py-o365-smtp"
+version = "0.0.1"
+description = "Send email using OAuth"
+readme = "README.md"
+authors = [{ name = "", email = "" }]
+license = { file = "LICENSE" }
+classifiers = [
+    "License :: OSI Approved :: BSD 3-Clause",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+]
+keywords = ["oauth", "email"]
+dependencies = [
+    'tomli; python_version < "3.11"',
+]
+requires-python = ">=3.9"
+
+[project.urls]
+Homepage = "https://github.com/jkrilov/py-o365-smtp"
+
+[project.scripts]
+py-o365-smtp = "py-o365-smtp.__main__:main"

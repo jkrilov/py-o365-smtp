@@ -1,0 +1,4 @@
+# config.toml
+
+[graph]
+endpoint = "https://graph.microsoft.com/v1.0/me/messages"
