@@ -23,8 +23,8 @@ jobs:
   megalinter:
     name: MegaLinter
     runs-on: ubuntu-latest
-    #checkov:skip=CKV2_GHA_1:The permission is needed for linter commits
     permissions:
+      #checkov:skip=CKV2_GHA_1:The permission is needed for linter commits
       # Give the default GITHUB_TOKEN write permission to commit and push, comment issues & post new PR
       contents: write
       issues: write
