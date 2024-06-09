@@ -1,0 +1,10 @@
+---
+# Configuration file for Megalinter
+
+DISABLE_LINTERS:
+  - SPELL_LYCHEE
+  - SPELL_CSPELL
+PRINT_ALPACA: false
+REPORTERS_MARKDOWN_TYPE: simple
+VALIDATE_ALL_CODEBASE: true
+PRINT_ALL_FILES: true
